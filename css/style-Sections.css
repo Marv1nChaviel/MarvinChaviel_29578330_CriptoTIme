@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.table{
+  position:absolute;
+  width: 90%;
+  height: 80%;  
+}
+
+video{
+  width: 45%;
+  position: relative;
+  
+}
+
+.img-precio{
+  width: 45%;
+  position: relative;
+  left: 90px;
+  
+}
+.title-nosotros{
+ font-size: 120px;
+}
+
+.text-nosotros{
+	font-size: 30px;
+	text-align: justify;
+}
+
+.img-nos{
+	position: absolute;
+	width: 300px;
+	border-radius: 20px;
+	left: 60rem;
+	top: 20rem;
+}
+
+.img-company img{
+	position: relative;
+	width: 15rem;
+	
+}
+
+.contactos img{
+	width: 6rem;
+	position: relative;
+}
+
+.contactos h2{
+	color:white;
+	position: relative;
+	right: 10%;
+}
+
+
+/*Inner*/
+
+.title-info{
+	font-size: 50px;
+}
+
+.subtitle-info{
+	font-size: 40px;
+	position:relative;
+	color:yellow;
+}
+
+.cripto{
+	position: relative;
+	margin-left: 15px;
+	right: 25rem;
+	text-align:start;
+}
+
+.img-info{
+	width: 400px;
+	margin-left: 1.5rem;
+	position: relative;
+	left: 25rem;
+	border-radius: 30px;
+	top: -38rem;
+}
+
+
+/* Footer */
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 140px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+  position: relative;
+  left: 35%;
+}
+
+.logo-footer{
+	position: relative;
+	left: 31rem;
+	font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 4rem;
+}
+/* End Footer */
+
+
+
+
+
+
